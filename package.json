@@ -1,21 +1,21 @@
 {
-    "name": "anoukis",
-    "displayName": "anoukis",
-    "description": "The idea behind the theme is to try to harmonize soft and flashy color.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "anoukis",
-                "uiTheme": "vs",
-                "path": "./themes/anoukis-color-theme.json"
-            }
-        ]
-    }
+  "name": "anoukis",
+  "displayName": "anoukis",
+  "description": "The idea behind the theme is to try to harmonize soft and flashy color.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "anoukis",
+        "uiTheme": "vs",
+        "path": "./themes/anoukis-color-theme.json"
+      }
+    ]
+  }
 }

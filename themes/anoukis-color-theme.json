@@ -264,7 +264,9 @@
         "support.function.url.css",
         "support.constant.vendored.property-value.css",
         "invalid.deprecated.gradient.function.css",
-        "meta.function.gradient.invalid.deprecated.gradient.css"
+        "meta.function.gradient.invalid.deprecated.gradient.css",
+        "support.constant.font-name.css",
+        "support.function.misc.css"
       ],
       "settings": {
         "fontStyle": "bold",
