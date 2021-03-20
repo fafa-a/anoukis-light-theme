@@ -198,7 +198,7 @@
     },
     {
       "name": "HTML: Entities",
-      "scope": ["string.quoted.double.html"],
+      "scope": ["string.quoted.double.html", "string.quoted.single.html"],
       "settings": {
         "foreground": "#00C6B2"
       }
@@ -220,36 +220,184 @@
       "scope": [
         "meta.selector",
         "meta.selector entity",
-        "meta.selector entity punctuation",
-        "entity.name.tag.css"
+        "meta.selector entity punctuation"
       ],
       "settings": {
-        "foreground": "#7E5A9B"
+        "foreground": "#00C6B2"
+      }
+    },
+    {
+      "name": "CSS: Selectors",
+      "scope": ["entity.name.tag.css", "keyword.operator.combinator.css"],
+      "settings": {
+        "foreground": "#FA198B"
+      }
+    },
+
+    {
+      "name": "CSS: Property Names",
+      "scope": [
+        "meta.property-name",
+        "support.type.property-name",
+        "constant.numeric.css"
+      ],
+      "settings": {
+        "foreground": "#EEA243"
       }
     },
     {
       "name": "CSS: Property Names",
-      "scope": ["meta.property-name", "support.type.property-name"],
+      "scope": "support.constant.color.w3c-standard-color-name.css",
       "settings": {
-        "foreground": "#AB6526"
+        "fontStyle": "bold",
+        "foreground": "#EEA243"
       }
     },
     {
       "name": "CSS: Property Values",
       "scope": [
-        "meta.property-value",
         "meta.property-value constant.other",
-        "support.constant.property-value"
+        "support.constant.property-value",
+        "support.constant.color.w3c-extended-color-name.css",
+        "support.function.gradient.css",
+        "support.function.misc.css",
+        "support.function.url.css",
+        "support.constant.vendored.property-value.css",
+        "invalid.deprecated.gradient.function.css",
+        "meta.function.gradient.invalid.deprecated.gradient.css"
       ],
       "settings": {
-        "foreground": "#448C27"
+        "fontStyle": "bold",
+        "foreground": "#FF7477"
+      }
+    },
+    {
+      "name": "CSS: Property Values",
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#FF7477"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation.section.property-list.begin.bracket.curly.css",
+        "punctuation.section.property-list.end.bracket.curly.css",
+        "meta.function.variable.css",
+        "punctuation.section.function.begin.bracket.round.css",
+        "punctuation.section.function.end.bracket.round.css",
+        "meta.property-value.css",
+        "punctuation.section.begin.bracket.curly.css",
+        "punctuation.section.end.bracket.curly.css",
+        "punctuation.definition.string.begin.css",
+        "punctuation.definition.string.end.css"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#FF3336"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation.definition.keyword.css",
+        "punctuation.terminator.rule.css",
+        "punctuation.terminator.rule.css",
+        "punctuation.separator.key-value.css",
+        "punctuation.definition.string.begin.css",
+        "punctuation.definition.string.end.css"
+      ],
+      "settings": {
+        "foreground": "#FF3336"
+      }
+    },
+    {
+      "name": "CSS: Entities",
+      "scope": ["string.quoted.single.css", "string.quoted.double.css"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#306B34"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation.definition.keyword.css",
+        "punctuation.terminator.rule.css"
+      ],
+      "settings": {
+        "foreground": "#FF3336"
       }
     },
     {
       "name": "CSS: Important Keyword",
-      "scope": "keyword.other.important",
+      "scope": [
+        "keyword.other.important",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.percentage.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.vmax.css",
+        "keyword.other.unit.vmin.css",
+        "keyword.other.unit.ch.css",
+        "keyword.other.unit.cm.css",
+        "keyword.other.unit.pc.css",
+        "keyword.other.unit.ex.css",
+        "keyword.other.unit.fr.css",
+        "keyword.other.unit.in.css",
+        "keyword.other.unit.mm.css",
+        "keyword.other.unit.pt.css",
+        "keyword.other.unit.deg.css"
+      ],
       "settings": {
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#306B34"
+      }
+    },
+    {
+      "name": "CSS: Entities",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "punctuation.definition.entity.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#00C6B2"
+      }
+    },
+    {
+      "name": "CSS: Entities",
+      "scope": ["variable.css", "variable.argument.css"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#004777"
+      }
+    },
+    {
+      "name": "CSS: Entities",
+      "scope": [
+        "keyword.control.at-rule.css",
+        "keyword.control.at-rule.font-face.css",
+        "keyword.control.at-rule.media.css",
+        "keyword.control.at-rule.keyframes.css",
+        "keyword.control.at-rule.viewport.css",
+        "keyword.control.at-rule.counter-style.css"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#9F84BD"
+      }
+    },
+    {
+      "name": "CSS: Entities",
+      "scope": ["meta.at-rule.header.css", "support.constant.media.css"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#B6A2CD"
       }
     },
     {
