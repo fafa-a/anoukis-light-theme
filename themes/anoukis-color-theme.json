@@ -168,14 +168,14 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#d90429"
+        "foreground": "#FA198B"
       }
     },
     {
       "name": "HTML: Tags",
       "scope": ["meta.tag"],
       "settings": {
-        "foreground": "#d90429"
+        "foreground": "#FA198B"
       }
     },
     {
@@ -186,7 +186,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FF5159"
+        "foreground": "#7E5A9B"
       }
     },
     {
@@ -212,7 +212,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#9FA0C3"
+        "foreground": "#FFACE4"
       }
     },
     {
@@ -224,7 +224,7 @@
         "entity.name.tag.css"
       ],
       "settings": {
-        "foreground": "#7A3E9D"
+        "foreground": "#7E5A9B"
       }
     },
     {
