@@ -75,8 +75,8 @@
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#AA3731"
+        "fontStyle": "",
+        "foreground": "#FF3336"
       }
     },
     {
@@ -373,7 +373,9 @@
       "scope": [
         "entity.other.attribute-name.pseudo-class.css",
         "punctuation.definition.entity.css",
-        "entity.other.attribute-name.pseudo-element.css"
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.class.css.postcss",
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -541,7 +543,7 @@
       "name": "Markup: Heading",
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#AA3731"
+        "foreground": "#306B34"
       }
     },
     {
@@ -615,6 +617,143 @@
       "scope": "meta.diff.header.to-file",
       "settings": {
         "foreground": "#434343"
+      }
+    },
+    {
+      "name": "JS: keyword",
+      "scope": [
+        "keyword.control.import.js",
+        "keyword.control.from.js",
+        "meta.import.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#9F84BD"
+      }
+    },
+    {
+      "name": "JS: variable",
+      "scope": [
+        "variable.other.readwrite.alias.js",
+        "variable.other.readwrite.js",
+        "variable.other.constant.js",
+        "variable.other.object.js",
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "fontStyle": "italic bold",
+        "foreground": "#0077b6"
+      }
+    },
+    {
+      "name": "JS: entities",
+      "scope": ["sentity.name.function.js", "meta.function-call.js"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#861657"
+      }
+    },
+    {
+      "name": "JS: storage",
+      "scope": ["storage.type.js", "support.class.builtin.js"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#03045E"
+      }
+    },
+    {
+      "name": "JS: support",
+      "scope": ["support.class.builtin.js"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#03045E"
+      }
+    },
+    {
+      "name": "JS: meta",
+      "scope": ["meta.object-literal.key.js"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#9F84BD"
+      }
+    },
+    {
+      "name": "JS: constant",
+      "scope": [
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#fb8500"
+      }
+    },
+    {
+      "name": "JS: punctuation",
+      "scope": [
+        "punctuation.definition.block.js",
+        "meta.block.js",
+        "punctuation.terminator.statement.js",
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.parameters.end.js"
+      ],
+      "settings": {
+        "foreground": "#FF3336"
+      }
+    },
+    {
+      "name": "JS: punctuation",
+      "scope": [
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js"
+      ],
+      "settings": {
+        "foreground": "#FFACE4"
+      }
+    },
+    {
+      "name": "JS: punctuation",
+      "scope": ["meta.brace.round.js"],
+      "settings": {
+        "foreground": "#9F84BD"
+      }
+    },
+    // VUEJS
+    {
+      "name": "Vue: entities",
+      "scope": [
+        "entity.name.tag.template.html",
+        "entity.name.tag.script.html",
+        "entity.name.tag.style.html"
+      ],
+      "settings": {
+        "foreground": "#FA198B"
+      }
+    },
+    {
+      "name": "Vue: punctuation",
+      "scope": [
+        "punctuation.definition.generic.begin.html",
+        "punctuation.definition.generic.end.html"
+      ],
+      "settings": {
+        "foreground": "#B5B0D4"
+      }
+    },
+    // TAILWIND
+    {
+      "name": "Tailwind: punctuation",
+      "scope": ["punctuation.definition.keyword.tailwind"],
+      "settings": {
+        "foreground": "#FA198B"
+      }
+    },
+    {
+      "name": "CSS: Entities",
+      "scope": ["keyword.control.at-rule.apply.tailwind"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#9F84BD"
       }
     }
   ]
