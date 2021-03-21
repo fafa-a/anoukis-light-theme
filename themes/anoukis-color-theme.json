@@ -291,14 +291,21 @@
         "meta.function.variable.css",
         "punctuation.section.function.begin.bracket.round.css",
         "punctuation.section.function.end.bracket.round.css",
-        "meta.property-value.css",
         "punctuation.section.begin.bracket.curly.css",
         "punctuation.section.end.bracket.curly.css",
         "punctuation.definition.string.begin.css",
         "punctuation.definition.string.end.css"
       ],
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "",
+        "foreground": "#FF3336"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["meta.property-value.css", "support.constant.font-name.css"],
+      "settings": {
+        "fontStyle": "italic",
         "foreground": "#FF3336"
       }
     },
